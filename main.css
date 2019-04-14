@@ -1,4 +1,51 @@
-#profile-img {
-  width: 100%;
-  max-width: 300px;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600');
+body{
+  margin:0 10% 0 10%;
+  font-family:'Montserrat', sans-serif;
+}
+h1{
+  font-weight:100;
+  font-size:4em;
+}
+h2{
+  font-weight:200;
+  font-size:3em;
+}
+h3{
+  font-weight:300;
+  font-size:2.5em;
+}
+h4{
+  font-weight:400;
+  font-size:2em;
+}
+h5{
+  font-weight:500;
+  font-size:1.5em;
+}
+h6{
+  font-weight:600;
+  font-size:1.2em;
+}
+.foot-box{
+  width:33%;
+  padding:1em 0 1em 0;
+  text-align: center;
+}
+.foot-box:not(:first-child){
+  border-left:solid 1px black;
+}
+footer{
+  display:flex;
+}
+#profile-image{
+  width:20em;
+  height:auto;
+  float:right;
+}
+#bio{
+  margin:
+}
+.foot-box{
+  
 }
